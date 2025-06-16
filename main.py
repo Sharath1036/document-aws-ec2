@@ -22,7 +22,7 @@ pdf_agent = None  # Will be initialized when URLs are provided
 website_agent = None
 
 # Initialize vector database
-vector_database = 'Qdrant' # MongoDb
+vector_database = 'MongoDb' # MongoDb
 
 class UrlsRequest(BaseModel):
     urls: List[str]
